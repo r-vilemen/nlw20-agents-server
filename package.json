@@ -11,8 +11,10 @@
     "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.0.6",
     "@types/node": "^24.0.13",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "ultracite": "5.0.32"
   },
   "dependencies": {
     "@fastify/cors": "^11.0.1",
