@@ -15,6 +15,13 @@
       "when": 1752699541415,
       "tag": "0001_mysterious_wolverine",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752760578967,
+      "tag": "0002_yummy_champions",
+      "breakpoints": true
     }
   ]
 }
