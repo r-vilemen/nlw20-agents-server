@@ -10,8 +10,11 @@ await seed(db, schema).refine((f) => {
       count: 20,
       columns: {
         name: f.companyName(),
-        descripition: f.loremIpsum(),
+        description: f.loremIpsum(),
       },
+    },
+    questions: {
+      count: 20,
     },
   };
 });
